@@ -37,7 +37,7 @@ for device in gpu_devices:
     tf.config.experimental.set_memory_growth(device, True)
 
 
-batch_size=10
+
 input_hdf5= '/home/tza/STEAD/tza/merged.hdf5'
 output_name='test_tester' 
 
@@ -55,7 +55,7 @@ args = {
     "input_dimention": (6000,3),
     "batch_size": 100,
     }
-
+batch_size=args['batch_size']
 
 
 save_dir = os.path.join(os.getcwd(), str(output_name)+'_outputs')
