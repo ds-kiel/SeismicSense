@@ -47,7 +47,7 @@ np.set_printoptions(threshold=sys.maxsize)
  
 
 parser = argparse.ArgumentParser(description='Inputs for SeismicSense')    
-parser.add_argument("--mode", dest='mode', default='test', help="prepare, train,quant, test,test_accuracy")
+parser.add_argument("--mode", dest='mode', default='train', help="prepare, train,quant, test,test_accuracy")
 parser.add_argument("--data_dir", dest='data_dir', default="/home/tza/STEAD/tza/merged.hdf5", type=str, help="Input file directory") 
 parser.add_argument("--data_list", dest='data_list', default="/home/tza/STEAD/tza/merged.csv", type=str, help="Input csv file")
 parser.add_argument("--input_model", dest='input_model', default="./test_trainer_outputs/final_model.h5", type=str, help="The pre-trained model used for the prediction")
