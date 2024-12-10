@@ -14,6 +14,7 @@ The model utilizes the [STEAD Dataset](https://github.com/smousavi05/STEAD.git),
    Start with the `SeismicSense_preprocess_n_train.py` script:
    - Set `mode="prepare"` to preprocess the data.
    - Once preprocessing is complete, set `mode="train"` to train the model.
+   - We have our custom layer to make the model run on MCU. ![BiLSTM layer] (Screenshot 2024-12-10 at 11.26.06.png) ![Upsampling] (Screenshot 2024-12-10 at 11.26.11.png) ![Upsampling] (Screenshot 2024-12-10 at 11.26.17.png)
 
 2. **Testing the Original Model**  
    Use `SeismicSense_test.py` to evaluate the trained model on the test set.
