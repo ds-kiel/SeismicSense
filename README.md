@@ -35,7 +35,7 @@ The model utilizes the [STEAD Dataset](https://github.com/smousavi05/STEAD.git),
    - Test the quantized split models with `TestingSplit_quant.py`.
    
 ### On-device Deployment
- Use the LightEQ_extension deployment code for on-device deployment [LightEQ GitHub Repository](https://github.com/ds-kiel/LightEQ_pipeline_extended/tree/main/zephyr/src). Minor modifications will be required.
+ Use the LightEQ_extension deployment code for on-device deployment (see: [LightEQ GitHub Repository](https://github.com/ds-kiel/LightEQ_pipeline_extended/tree/main/zephyr/src)). Minor modifications will be required.
 
 ## Repository Overview
 - `SeismicSense_preprocess_n_train.py`: Handles data preparation and model training.
